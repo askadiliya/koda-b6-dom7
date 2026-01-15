@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rick and Morty Characters</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background: #f4f4f4;
+      }
+
+      .characters {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+        gap: 20px;
+        padding: 20px;
+      }
+
+      .card {
+        background: white;
+        border-radius: 10px;
+        overflow: hidden;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        text-align: center;
+      }
+
+      .card img {
+        width: 100%;
+      }
+
+      .card h3 {
+        margin: 10px 0 5px;
+      }
+
+      .card p {
+        margin-bottom: 10px;
+        color: gray;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 style="text-align: center">Rick and Morty Characters</h1>
+    <input
+      type="search"
+      id="search"
+      placeholder="Cari karakter..."
+      style="display: block; margin: 20px auto; padding: 10px; width: 300px"
+    />
+
+
+    <div class="characters" id="characters"></div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
