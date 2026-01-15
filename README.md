@@ -21,4 +21,9 @@ Project sederhana untuk menampilkan data karakter dari **Rick and Morty API** da
 
 ---
 
+## 📸 Screenshots
+
+![rickAndMorty](rickAndMorty.png)
+
+
 
